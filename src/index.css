@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #1bb986, #169c7a); 
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin-top: 1em;
+}
+
+
+.icon-container{
+  gap: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+
+.icon-container{
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  margin-left: 0.4em;
+}
+
+.icon{
+  color: black;
+  margin-right: 0.5em;
+}
+
+button{
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.container{
+  border: solid black 1px;
+  border-radius: 10%;
+  height: 43em;
+  background-color: white;
+}
+
+.error-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.badgeStyle{
+  height: 3em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
